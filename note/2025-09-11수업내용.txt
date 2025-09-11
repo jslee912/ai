@@ -1,0 +1,18 @@
+1. gitscm 설치
+2. github 가입
+3. 아나콘다 설치
+4. 소스파일이 저장될 작업폴더 지정
+- 주피터노트북 바로가기아이콘의 속성> 대상값의 "%USERPROFILE%"을 원하는 경로로 변경 "C:\AI\source\01_python"
+5. 주피터노트북 설정을 위해
+주피터 노트북 닫은 상태에서 아나콘다 프롬프트에서 아래 6개 명령실행
+
+conda install -c conda-forge jupyter_nbextensions_configurator
+
+pip install jupyter_nbextensions_configurator jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+
+jupyter contrib nbextension install --sys-prefix
+conda install nbclassic=0.4.8
+
+주피터 노트북 화면에 Nbextensions 메뉴 추가됨
