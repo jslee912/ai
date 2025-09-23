@@ -1,4 +1,4 @@
-4장 제어문
+4장 제어문(if, while, for)
      - 조건문 : if 문
      - 반복문 : for문(반복횟수), while문(조건이 만족할때까지)
     **모두 중첩 가능**
@@ -25,9 +25,9 @@
         else:
             조건이 False일 경우 한번 실행할 문장들(else구문 선택사항)
             while문내의 break 수행할 경우 else 구문은 실행되지 않음
-      2.3 break, continue
+      2.3 break vs. continue
         break : 현재 반복문 탈출
         continue : 수행중인 반복문을 멈추고 조건절로
 
     3절 중첩루프(반복문 안의 반복문)
-    4절 중첩루프 탈출
+    4절 중첩루프 탈출 : flag변수이용 vs 예외처리
