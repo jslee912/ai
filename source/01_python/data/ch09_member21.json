@@ -1,0 +1,20 @@
+[
+	{
+		"name": "둘리",
+		"age": 30,
+		"email": "h@h.com",
+		"address": "깐따삐아"
+	},
+	{
+		"name": "희동이",
+		"age": 25,
+		"email": "m@h.com",
+		"address": "하남"
+	},
+	{
+		"name": "도우너",
+		"age": 35,
+		"email": "p@h.com",
+		"address": "대전"
+	}
+]
