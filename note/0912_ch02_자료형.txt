@@ -10,7 +10,7 @@
 3절 기본자료형
 	숫자 : int, float, complex(복소수)
 		int/int => 실수
-		지수형표현ex1.12e-20 지수형표현은 실수
+		지수형 표현ex1.12e-20 지수형 표현은 실수
 	문자 : +, *연산
 		정규표현식 : re.findall(), re.search()
 
