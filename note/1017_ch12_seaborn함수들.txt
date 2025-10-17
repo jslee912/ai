@@ -1,0 +1,40 @@
+ch12_데이터시각화
+    1절 matplotlib
+
+	1.5 그 외 그래프 그리길
+	  1) boxplot vs violinplt
+	  2) bar(), barh()
+	  3) hist(도수분포표, 히스토그램)
+	  4) axvline(), axhline(), fill(), fill_between()
+	  5) pie
+	1.6 그래프 커스터마이징
+	  1) linestyle, linewidth, color, marker
+	  2) text(), annotate()
+	  3) 수학 기호
+	  4) 축과 눈금
+	  5) 축공유 ★
+	  6) 범례표시
+	  7) 플롯스타일 지정
+
+
+    2절seaborn함수들
+	1)데이터준비
+	2)미적속성설정
+	  sns.set(style='darkgrid', 
+      	           context='notebook',
+       	           palette='Set2',
+      	           rc={'figure.figsize':(10,3)}) 
+	3) 그래프 함수
+	  ① 관계형그래프 
+ 	      - scatterplot, lineplot => relplot(서브플롯)
+	  ② 범주형그래프
+	      - stripplot(무작위로 흩뿌림), swarmplot(겹치지않음) - 점도표
+  	      - barplot, pointplot(막대대신 marker가 있는 선)
+ 	      - countplot(bar는 y의 평균값이높이, count는 x의 빈도수 높이)
+ 	      - boxplot, violinplot, boxenplot     => catplot(서브플롯)
+	  ③ 쌍관계그래프 : pairplot
+ 	  ④ 밀도그래프 
+ 	  ⑤ 회귀그래프 regplot => lmplot(서브플롯)
+ 	      서브플롯은 사이즈 지정을 따로 다른 방법
+
+	4) 다중그래프 FacetGrid
