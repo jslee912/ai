@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style> /* 위부터 아래로 차례차례 적용*/
+    * { /* 전체선택자=페이지 초기화 용도: 전체 페이지의 디자인을 초기화  */
+        margin:0;
+        padding:0;
+        color:saddlebrown;
+    }
+    header, nav, section,footer{
+      border:1px solid gray;
+      width:500px;
+      margin:2px auto;  /*좌우 여백을 나눔*/
+    }
+    /* ul li 메뉴를 수평으로*/
+    nav ul{overflow:hidden;} /* 수평으로 하고픈 태그의 부모단 */
+    nav ul li{
+      float:left; 
+      list-style:none;
+      width: 125px;
+      text-align:center;  /* 글씨를 가운데로 */
+/*      margin:1px 25px;*/
+    }
+    section{
+      clear: both; /*float 속성을 clear. overflow:hidden을 했으면 생략 가능*/
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>OO 주식회사</h1>
+  </header>
+  <nav>
+    <ul> <!-- 자식은 나란히 뜰거야-->
+      <li>회사소개</li><li>서비스소개</li><li>고객센터</li><li>곤지사항</li> <!--나란히-->
+    </ul>
+  </nav>
+  <section>
+    <p>
+     CSS 선택자란, 
+     웹페이지의 특정 부분을 선택하여, 태그의 속성을 변경하는 목적으로 이용
+    </p>
+    <p>
+      헌법개정은 국회재적의원 과반수 또는 대통령의 발의로 제안된다. 대법원은 법률에 저촉되지 아니하는 범위안에서 소송에 관한 절차, 법원의 내부규율과 사무처리에 관한 규칙을 제정할 수 있다.
+      국가는 재해를 예방하고 그 위험으로부터 국민을 보호하기 위하여 노력하여야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
+    </p>
+  </section>
+  <footer>
+    <p>서울시 XX구 OO동 ㅁㅁ빌딩</p>
+  </footer>
+</body>
+</html>
