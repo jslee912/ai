@@ -1,0 +1,11 @@
+Visual Studio 단축키
+ctrl+shift+W
+ctrl+n
+
+10-27 1교시 hidden타입 설명
+
+<input> type="number" 은 정수와 지수형 숫자만 입력가능
+
+세로블럭 ==> alt+ 드래그
+
+소스전체 정렬 핫키 ?
