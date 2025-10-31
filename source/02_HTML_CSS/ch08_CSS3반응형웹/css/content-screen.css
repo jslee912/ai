@@ -1,0 +1,7 @@
+/* ,content 화면용 */
+#wrap .content{
+    background-color: darkgreen;  /*크롬 설정-인쇄>설정>더보기 - 배경 그래픽 unchecked 되어있으면 흰색으로 출력된다.*/
+    color: white;
+    padding: 10px;
+    text-align: justify;  /* 양쪽 정렬 */
+}
