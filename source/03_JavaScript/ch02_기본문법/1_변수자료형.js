@@ -11,7 +11,7 @@ variable = function(){
   alert('함수 속')
 };
 console.log('5.variable 타입 :', typeof(variable),' - 값 :', variable);
-variable = {   'name':'홍길동','age':20 }; //객체
+variable = {   'name':'홍길동','age':20 }; //객체, dictionary(X)
 console.log('6.variable 타입 :', typeof(variable),' - 값 :', variable);
 console.log('6.variable 타입 :', typeof(variable),' - 값 :', variable.name, variable.age);
 variable = ['홍길동', 10, function(){}, true, {'name':'홍길동'},[1,2,3]];  //배열

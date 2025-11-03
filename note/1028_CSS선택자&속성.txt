@@ -1,0 +1,28 @@
+CSS 선택자
+    1.태그선택자
+    2.전체(*) 선택자 ; 페이지 초기화
+    3.id(#)선택자 class(.)선택자
+    4.혼합선택자
+    5.속성 선택자
+    6.후손선택자, 자손선택자(바로아랫단)
+    7.동위(형제)선택자(+하나, ~다)
+    8.반응선택자(ex.마우스를 올릴때 반응)
+    9.상태선택자(ex. input에 focus된 상태)
+    10.구조선택자
+    11.문자선택자
+    12.링크선택자
+    13.부정선택자
+
+CSS 속성들
+    1.CSS3 단위들: em, %, px, pt
+    2.url()함수를 이용한 background-image, 로컬 폰트 지정 
+    3.display : inline, block, inline-block, none
+    4.visibility
+    5.opacity
+    6.margin과 padding
+    7.boxing-sizing ; border를 box안으로
+    8.글자관련 속성; font-family, font-size, font-weight, font-style,
+                      line-height, text-align, text-decoration
+    9.폰트(웹폰트, 로컬폰트, 시스템 폰트)
+    10.position
+    11.	float
