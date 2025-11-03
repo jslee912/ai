@@ -1,0 +1,37 @@
+2. 기본 문법
+    자료형(string, number, boolean, object(array), function, undefined)
+    내장함수(alert, prompt, confirm) 
+    2.1 기본용어 - 키워드, 식별자, 주석
+    2.2 출력 - alert
+    2.3 변수의 생성과 사용 - var와 let과 const 차이
+    2.4 자료형 -string, number, boolean, object(array), function, undefined
+    2.5 자료형 검사
+    2.6 복합 대입 연산자(+= -= *= /= %=), 증감연산자
+    2.9 출입력
+    2.10	숫자와 문자열 자료형 변환
+    2.11 불자료형 변환
+    2.12 일치 연산자
+
+3. 조건문
+    if문, switch문, 삼항연산자, 내장객체(document, Date, Math), ==, ===(값과 자료형 비교)
+
+4. 반복문
+    배열, 배열에서의 반복문과 forEach함수, do~while문, while문
+    while(조건식){
+	조건식이 참일 때 계속 실행할 명령문들;
+    }
+
+    do{
+	최초 한번은 무조건 실행. 두번째부터는 조건식이 참이면 계속 수행할 명령문들;
+    } while(조건식);
+
+    for( ①초기값 ; ②반복할조건 ; ④증감식){
+	③ 반복할 명령문들;
+    }
+
+    for(var idx in array){   }
+    for(var data of array){  }
+
+    배열변수.forEach(function(data, index){
+        첫번째 인덱스부터 끝 인덱스까지 반복할 명령문들;
+    });
