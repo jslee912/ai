@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    ul{overflow: hidden;}
+    li{float: left; list-style: none; margin: 3px;}
+  </style>
+  <script>
+    var overImg = ['ch11_img/0over.jpg', ' ch11_img/1over.jpg', ' ch11_img/2over.jpg', ' ch11_img/3over.jpg'];
+    var outImg  = ['ch11_img/0out.jpg',  ' ch11_img/1out.jpg',  ' ch11_img/2out.jpg',  ' ch11_img/3out.jpg'];
+    // 기본 모델
+    // window.onload = ()=> {
+    //   var menuImgs = document.querySelectorAll('ul li img');
+    //   for (var i = 0; i < menuImgs.length; i++) {
+    //     (function(idx) {
+    //       menuImgs[idx].onmouseover = function() {
+    //         menuImgs[idx].src = overImg[idx];
+    //       };
+    //       menuImgs[idx].onmouseout = function() {
+    //         menuImgs[idx].src = outImg[idx];
+    //       };
+    //     })(i);
+    //   }
+    // };
+    
+    // 표준 모델
+    // window.onload = ()=>{
+    //   var menuImgs = document.querySelectorAll('ul li img');
+    //   menuImgs.forEach((img, idx) => {
+    //     img.addEventListener('mouseover', () => {
+    //       img.src = overImg[idx];
+    //     });
+    //     img.addEventListener('mouseout', () => {
+    //       img.src = outImg[idx];
+    //     });
+    //   });
+    // };
+
+    function setMouseOver(img, idx) {
+      img.onmouseover = function() {
+        img.src = overImg[idx];
+      };
+    }
+    
+    function setMouseOut(img, idx) {
+      img.onmouseout = function() {
+        img.src = outImg[idx];
+      };
+    }
+    
+    window.onload = function() {
+      var menuImgs = document.querySelectorAll('ul li img');
+      
+      for (var i = 0; i < menuImgs.length; i++) {
+        setMouseOver(menuImgs[i], i);
+        setMouseOut(menuImgs[i], i);
+      }
+    };
+  </script>
+</head>
+<body>
+  <ul>
+    <li><a href="#"><img src="ch11_img/0out.jpg" /></a></li>
+    <li><a href="#"><img src="ch11_img/1out.jpg" /></a></li>
+    <li><a href="#"><img src="ch11_img/2out.jpg" /></a></li>
+    <li><a href="#"><img src="ch11_img/3out.jpg" /></a></li>
+  </ul>
+</body>
+</html>
