@@ -1,0 +1,30 @@
+h3.h_lst > span.blind
+엔, 달러, 원 
+head_info point_up
+div.head_info > span > span.blind
+
+상승
+div.head_info > span.blind
+
+------------------------------------
+로또번호
+
+1197회   
+div.win_result h4 strong
+
+(2025년 11월 08일 추첨)
+div.win_result p.desc
+
+div.win_result div.nums div.num_wins  span.ball_645 lrg ball1
+
+-------------------------------
+멜론차트
+
+순위 숫자
+div.wrap.t_center > span.rank  
+
+노래제목
+div.ellipsis.rank01> span 
+
+가수
+div.ellipsis.rank02
