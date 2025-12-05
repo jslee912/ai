@@ -1,0 +1,44 @@
+**01_python 폴더
+.env---
+CLIENT_ID=hIYkwUZQUizUE0Ga9wV5    
+CLIENT_SECRET=wQfLqBVg9C
+KEY=zOP%2FMN6fuxug2JFL1ZRlDlYWPvCsAK9GsgTot%2FUyi5L94F3Coh1MFRPmtFH4gkISul%2B3VzIg5eRO5WWTgErzVw%3D%3D
+KEY1=ZS3iEVZ82iG9dvZc3urYq03YK9x0dwPWsaXcaNd1XACv8yWys1TONILRRSHiRNyrFo1qVk379RdHIUhAtRaL5w%3D%3D
+KEY2=kWiLqR5an3qgHfkycjPmjxAie5mGGzW0LuPktrSNA3kqpsmWfsLSW9TxR9k0khrZgJLecVcO88n5LsStz845eg%3D%3D
+KEY3=a8lScE3R9dWycT%2FJQ1zahJ8ORs6F%2BSq2K4g4WDYnkjXw%2Fh2YEA0QenE5uHENfw6NuuXBIM4QDslbks9e%2FKagNQ%3D%3D
+
+.gitignore---
+.env
+=================================
+
+**07_자연어처리 폴더
+.env
+CLIENT_ID=hIYkwUZQUizUE0Ga9wV5    
+CLIENT_SECRET=wQfLqBVg9C
+
+
+===================================
+
+**04_DBMS 폴더
+.gitignore---
+/.metadata/
+
+
+
+===================================
+**AI 폴더
+.env-----
+CLIENT_ID=hIYkwUZQUizUE0Ga9wV5    
+CLIENT_SECRET=wQfLqBVg9C
+KEY=zOP%2FMN6fuxug2JFL1ZRlDlYWPvCsAK9GsgTot%2FUyi5L94F3Coh1MFRPmtFH4gkISul%2B3VzIg5eRO5WWTgErzVw%3D%3D
+KEY1=ZS3iEVZ82iG9dvZc3urYq03YK9x0dwPWsaXcaNd1XACv8yWys1TONILRRSHiRNyrFo1qVk379RdHIUhAtRaL5w%3D%3D
+KEY2=kWiLqR5an3qgHfkycjPmjxAie5mGGzW0LuPktrSNA3kqpsmWfsLSW9TxR9k0khrZgJLecVcO88n5LsStz845eg%3D%3D
+KEY3=a8lScE3R9dWycT%2FJQ1zahJ8ORs6F%2BSq2K4g4WDYnkjXw%2Fh2YEA0QenE5uHENfw6NuuXBIM4QDslbks9e%2FKagNQ%3D%3D
+
+.gitignore-----
+.ipynb_checkpoints/
+.env
+downloads/
+IDE/
+lecNote/
+올리면안되는파일.txt
