@@ -38,6 +38,8 @@ ai_new 에 git내용 복사
 또는
    git fetch && git rebase origin/main
 
-
+* 팀 작업 시 자주 pull
+* 커밋 단위를 작게 유지
+* 브랜치 전략(Git Flow, GitHub Flow) 준수
 
 
