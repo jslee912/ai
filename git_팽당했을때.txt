@@ -1,0 +1,43 @@
+git 팽당했을 때(중요한 내용을 포함한 파일  올렸을 때)
+ai_new 에 git내용 복사
+1. git clone https://github.com/jslee912/ai.git ai_new
+   C:\AI\>git clone 내깃주소/.git .git받을폴더
+   AI 폴더 하위에 ai_new 폴더가 만들어지고 하위에 .git 폴더 복사됨
+2. ai 폴더의  .git폴더(히스토리가 들어있는 폴더) 삭제
+3. ai_new의 .git폴더를 ai폴더로 옮기기
+4. ai_new 폴더 삭제
+
+
+1. fetch → 원격 최신 가져오기
+   git fetch origin
+2. status/log → 차이 확인
+   git status
+   git log --oneline --graph --decorate --all
+3. merge/rebase → 원격과 로컬 병합
+   (A) Merge 방식 -기록 보존
+   git merge origin/main
+   (B) Rebase 방식(더 깔끔한 로그) - 히스토리 정돈
+   git rebase origin/main
+
+4. conflict 해결 → 충돌 수정 & commit
+   git add .
+   git commit    # merge인 경우
+   # 또는
+   git rebase --continue   # rebase인 경우
+
+5. push 재시도 → (필요 시 force-with-lease)
+    (A) Merge 사용한 경우:
+    git push origin main
+
+    (B) Rebase 사용한 경우(force-with-lease 권장)
+    git push origin main --force-with-lease
+
+6. 재발 방지 → pull --rebase 습관화
+작업 시작 전 항상 -
+    git pull --rebase  
+또는
+   git fetch && git rebase origin/main
+
+
+
+
