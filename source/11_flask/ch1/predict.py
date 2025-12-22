@@ -1,0 +1,28 @@
+# predict.py 파일
+# 가상환경 만기 : python -m venv .venv : .venv 
+# 가상환경 들어가기 : .venv\Scriptes\activate
+# pip 업그레이드 :  python -m pip install --upgrade pip
+
+# pip install statsmodels joblib
+# pip install xlwings
+# pip install flask
+
+# .ignore파일에 .venv/ 와  .idea/추가
+
+# pip freeze > requirements.txt
+# requirements.txt 를 팀원끼리 공유 - 가상환경을 공유하는 것이 아니고 가상환경의 내역을 공유
+# requirements.txt에 있는 라이브러리를 똑같이 설치 : pip install -r requirements.txt
+
+import joblib
+loaded_model = joblib.load('model/apt.joblib')
+
+def predict_apt_price(year, square, floor):
+  input_data = [[int(year), int(square),int(floor),1]]
+  result = round(loaded_model.predict(input_data)[0] * 10000)
+  return format(result,',') +'원입니다'
+
+if __name__=="__main__":
+  year = input('건축년도')
+  square = input('몇 제곱미터?')
+  floor = input('몇층?')
+  print('예측한 금액은', predict_apt_price(year, square, floor))
