@@ -1,6 +1,6 @@
 # predict.py 파일
-# 가상환경 만기 : python -m venv .venv : .venv 
-# 가상환경 들어가기 : .venv\Scriptes\activate
+# 가상환경 만들기 : python -m venv .venv : .venv 
+# 가상환경 들어가기 : .venv\Scripts\activate
 # pip 업그레이드 :  python -m pip install --upgrade pip
 
 # pip install statsmodels joblib
