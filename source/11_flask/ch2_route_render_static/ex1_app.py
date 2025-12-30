@@ -7,8 +7,10 @@
 # 변경하시겠습니까?
 # [Y] 예(Y)  [A] 모두 예(A)  [N] 아니요(N)  [L] 모두 아니요(L)  [S] 일시 중단(S)  [?] 도움말 (기본값은 "N"):Y  => 
 
+# ------------------------------------------------------------------------------------------------
+
 # app.py 생성 후 ctrl+j 터미널 창을 열기(.venv)
-# 1. 가상환경 => python -m venv .venv : .venv   => 확인창 뜨면 예
+# 가상환경 만들기    :  python -m venv .venv : .venv   => 확인창 뜨면 예
 # 가상환경 들어가기 : .venv\Scripts\activate
 # pip 업그레이드 :  python -m pip install --upgrade pip
 # pip install flask
@@ -35,4 +37,12 @@ def apt_handler():
 # app.py가 아닌 파일 플라스크 실행 : python ex1_app.py
 if __name__=="__main__":
   app.run(port=80, debug=True)   # 소스 수정시 서버 자동 재시작, port=80번
+
+
+
+
+
+
+
+
 
