@@ -11,3 +11,5 @@ __pycache__
 .idea/
 jslee912/
 10_1stProject_local/
+*.pkl
+source/11_flask/oids_*.pkl
