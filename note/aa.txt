@@ -26,5 +26,5 @@ div.wrap.t_center > span.rank
 노래제목
 div.ellipsis.rank01> span 
 
-가수
+가수--
 div.ellipsis.rank02

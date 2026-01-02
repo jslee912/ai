@@ -10,7 +10,7 @@
 # ------------------------------------------------------------------------------------------------
 
 # app.py 생성 후 ctrl+j 터미널 창을 열기(.venv)
-# 가상환경 만들기    :  python -m venv .venv : .venv   => 확인창 뜨면 예
+# 가상환경 만들기    :  python -m venv .venv : .venv 가상환경 만들기  => 확인창 뜨면 예
 # 가상환경 들어가기 : .venv\Scripts\activate
 # pip 업그레이드 :  python -m pip install --upgrade pip
 # pip install flask

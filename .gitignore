@@ -4,8 +4,12 @@ downloads/
 IDE/
 lecNote/
 올리면안되는파일.txt
-10_1stPrj/
+10_1stPrj_gdrive/
 10_1stTeamProject/
 __pycache__
-.venv
+.venv/
 .idea/
+jslee912/
+10_1stProject_local/
+*.pkl
+source/11_flask/oids_*.pkl

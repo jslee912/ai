@@ -1,24 +1,17 @@
 # [KDT] 기업맞춤형 AI-X 융복합 인재 양성 과정
 
-1. Create repository
-2. git-scm을 다운받고 install
-3. Git Bash에서 git 환경 설정
-   - git config --global user.name
-   - git config --global user.email
-   - git config --list (확인)
-4. git 공간에 자료 올리기
-   - git init (초기화)
-   - git add . (공유 추가할 파일 더하기)
-   - git status (상태 확인 – 선택)
-   - git commit –m “first commit” (히스토리 버전 이름)
-   - git branch –M main (branch 생성 – branch 생성을 하지 않을 경우 master로)
-   - git remote add origin 본인깃주소 (연결고리)
-   - git remote –v (확인 – 선택)
-   - git push –u origin main (branch에 올리기 branch를 생성하지 않았다면 master)
-5. 내 pc와 git이 동기화된 거 확인 후, 추가 파일 만든 후 추가 올리기
-   - git add .
-   - git commit –m “second”
-   - git push –u origin main
-6. 협업 (웹에서 수정하거나 다른 장소에서 수정 후 pull 필수)
-   - git clone 주소 폴더이름 (다른 pc에 git 내용 그대로 받기)
-   - git pull origin main (git 저장소와 내 PC간 동기화)
+# AI 모델링 및  LLM 학습일지 (1일 1commit)
+
+# 📋 CURRICULUM
+<img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/55580ff5-c6c9-4d17-8a2c-b00b4d7c0845" />
+
+# 📚 SKIL
+| 구분 | 기술 |
+| :--- | :--- |
+| **Programming** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white) |
+| **DBMS** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) |
+| **AI / ML** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) ![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)  ![LLM](https://img.shields.io/badge/OpenAI-LLM-412991?style=for-the-badge&logo=openai&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-00ADD8?style=for-the-badge&logo=openai&logoColor=white) |
+| **WEB Standard** | <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> |
+| **WEB Framework** | <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white"> <img src="https://img.shields.io/badge/django-FCC624?style=for-the-badge&logo=django&logoColor=black"> <img src="https://img.shields.io/badge/fastapi-FF0000?style=for-the-badge&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white">|
+| **Version Control** | <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> |
+
