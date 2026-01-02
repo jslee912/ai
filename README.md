@@ -2,10 +2,10 @@
 
 # AI 모델링 및  LLM 학습일지 (1일 1commit)
 
-# CURRICULUM
+# 📋 CURRICULUM
 <img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/55580ff5-c6c9-4d17-8a2c-b00b4d7c0845" />
 
-# SKIL
+# 📚 SKIL
 | 구분 | 기술 |
 | :--- | :--- |
 | **Programming** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white) |
